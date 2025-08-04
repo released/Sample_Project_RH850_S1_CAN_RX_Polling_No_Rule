@@ -57,30 +57,30 @@ volatile CAN_BUS_PARAMETER_T can_bus_parameter_ch1 =
 
 2. Below is EVB switch
 
-![image](https://github.com/released/Sample_Project_RH850_S1_CAN_FD_RX_Polling_No_Rule/blob/main/EVB_CAN_cfg.jpg)
+![image](https://github.com/released/Sample_Project_RH850_S1_CAN_RX_Polling_No_Rule/blob/main/EVB_CAN_cfg.jpg)
 
 
 3. Below is PCAN config setting 
 
-![image](https://github.com/released/Sample_Project_RH850_S1_CAN_FD_RX_Polling_No_Rule/blob/main/PCAN_cfg.jpg)
+![image](https://github.com/released/Sample_Project_RH850_S1_CAN_RX_Polling_No_Rule/blob/main/PCAN_cfg.jpg)
 
 
 4. when use UART terminal , which send CAN TX message from RH850 EVB , and rececive with PCAN
 
 digit 1 , 
-![image](https://github.com/released/Sample_Project_RH850_S1_CAN_FD_RX_Polling_No_Rule/blob/main/log_tx1.jpg)
+![image](https://github.com/released/Sample_Project_RH850_S1_CAN_RX_Polling_No_Rule/blob/main/log_tx1.jpg)
 
 
 digit 2 , 
-![image](https://github.com/released/Sample_Project_RH850_S1_CAN_FD_RX_Polling_No_Rule/blob/main/log_tx2.jpg)
+![image](https://github.com/released/Sample_Project_RH850_S1_CAN_RX_Polling_No_Rule/blob/main/log_tx2.jpg)
 
 
 digit 3 , 
-![image](https://github.com/released/Sample_Project_RH850_S1_CAN_FD_RX_Polling_No_Rule/blob/main/log_tx3.jpg)
+![image](https://github.com/released/Sample_Project_RH850_S1_CAN_RX_Polling_No_Rule/blob/main/log_tx3.jpg)
 
 
 digit 4 , 
-![image](https://github.com/released/Sample_Project_RH850_S1_CAN_FD_RX_Polling_No_Rule/blob/main/log_tx4.jpg)
+![image](https://github.com/released/Sample_Project_RH850_S1_CAN_RX_Polling_No_Rule/blob/main/log_tx4.jpg)
 
 
 5. Below is different ID test condition , which send by PCAN , and rececive with RH850 RX
@@ -88,15 +88,15 @@ digit 4 ,
 
 - ID : 043 , Standard ID , Data Frame , DLC 8 , CAN Frame , w/o BRS
 
-![image](https://github.com/released/Sample_Project_RH850_S1_CAN_FD_RX_Polling_No_Rule/blob/main/rx_pollig_ID_043.jpg)
+![image](https://github.com/released/Sample_Project_RH850_S1_CAN_RX_Polling_No_Rule/blob/main/rx_pollig_ID_043.jpg)
 
 
 - ID : 090 , Standard ID , Data Frame , DLC 8 , CAN Frame , w/o BRS
 
-![image](https://github.com/released/Sample_Project_RH850_S1_CAN_FD_RX_Polling_No_Rule/blob/main/rx_pollig_ID_090.jpg)
+![image](https://github.com/released/Sample_Project_RH850_S1_CAN_RX_Polling_No_Rule/blob/main/rx_pollig_ID_090.jpg)
 
 
 - ID : 100 , Standard ID , Data Frame , DLC 8 , CAN Frame , w/o BRS
 
-![image](https://github.com/released/Sample_Project_RH850_S1_CAN_FD_RX_Polling_No_Rule/blob/main/rx_pollig_ID_100.jpg)
+![image](https://github.com/released/Sample_Project_RH850_S1_CAN_RX_Polling_No_Rule/blob/main/rx_pollig_ID_100.jpg)
 

@@ -61,10 +61,15 @@ volatile CAN_BUS_PARAMETER_T can_bus_parameter_ch1 =
     // .DTSEG2                 = 6U - 1U,
     // .DSJW                   = 6U - 1U,
 
-    .NBRP                   = CAN_NBRP_1,
-    .NTSEG1                 = CAN_NTSEG1_59TQ,
-    .NTSEG2                 = CAN_NTSEG2_20TQ,
-    .NSJW                   = CAN_NSJW_20TQ,
+
+	/*
+		When only classical CAN frames are used in CAN FD mode, set the RCFDCnCFDCmDCFG register to the value 
+		equal to the set RCFDCnCFDCmNCFG register value. 	
+	*/
+    .NBRP                   = CAN_NBRP_4,
+    .NTSEG1                 = CAN_NTSEG1_14TQ,
+    .NTSEG2                 = CAN_NTSEG2_5TQ,
+    .NSJW                   = CAN_NSJW_5TQ,
 
     .DBRP                   = CAN_DBRP_4,
     .DTSEG1                 = CAN_DTSEG1_14TQ,

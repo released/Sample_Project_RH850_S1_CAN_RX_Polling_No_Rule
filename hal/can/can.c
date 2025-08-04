@@ -25,6 +25,15 @@ CAN_BUS_HANDLE  can_bus_handle_ch1;
         TSEG2 : 6
         SJW : 6
 
+
+    -----------------------
+    #2
+    data : 500k
+        sample rate : 75
+        pre-scale : 4
+        TSEG1 : 14
+        TSEG2 : 5
+        SJW : 5    
 */
 
 volatile CAN_BUS_PARAMETER_T can_bus_parameter_ch1 = 
